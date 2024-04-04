@@ -1,3 +1,6 @@
+#container{
+    background-color: rgb(186, 248, 233);
+}
 #topnav{
     gap: 55%;
 }
@@ -52,18 +55,36 @@ button{
 @media screen and(max-width:375px) and (min-width:667px){
     #mytopnav{
         display: block;
-        /* gap: 10%; */
         flex-wrap: wrap;
         } 
     #image1{
         width: 0px;
         }  
     #veterinarians{
-        display: block;    
-        /* gap: 10%; */
-        }      
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;  
+        
+        }
+    #footer{
+            display: block;
+            gap: 10%;
+        }          
 }
 @media  screen and(max-width:1000px)  and (min-width:1200px){
-  
+ #mytopnav{
+    display: block;
+    flex-wrap: wrap;
+ } 
+ #footer{
+    display: block;
+    gap: 10%;
+} 
+#veterinarians{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;  
+    
+    }        
     
 }
